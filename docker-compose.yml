@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+    my_jupyter:
+        build: .
+        user: root
+        environment:
+            GRANT_SUDO: "yes"
+            JUPYTER_TOKEN: "passwd"
+        volumes:
+          - /Users/syl/Sandbox/tflan/work:/app
+        ports:
+          - 8888:8888
