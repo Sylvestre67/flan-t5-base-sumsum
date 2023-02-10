@@ -5,7 +5,7 @@ A Dockerized environment to Fine-tune FLAN-T5 for chat &amp; dialogue summarizat
 Be sure you have Docker installed and running. 
 
 ```bash 
-$ docker --version                                           tflan  13:36:08
+$ docker --version                                         
 Docker version 20.10.21, build baeda1f
 ```
 
